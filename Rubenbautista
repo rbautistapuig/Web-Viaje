@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Rutes amb google maps</title>
+    </head>
+
+    <body>
+        <h1>Viaje por Italia</h1>
+        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAACjCAMAAADciXncAAAAGFBMVEX///8Akz/xJjYAjCady679/P3tVlvwJjaibwgYAAABAElEQVR4nO3QBwkAMAwAsO7Wv+OqWGGQSEiMFmtHi3Pne5lhzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzZo1a9asWbNmzdonawWf7dNlBYMP7wAAAABJRU5ErkJggg==" alt=""
+        height="350"
+        width="500"
+        >
+
+        <img src="data:image/jpeg;base64,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" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 1</h3>
+        <p>Vamos de viaje por Italia</p>
+        <p>Roma</p>
+        <p>Nos gastamos 201€</p>
+        <img src="https://img.bekiaviajes.com/ciudades/portada/0000/6-h.jpg" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 2</h3>
+        <p>Pasamos todo el dia en Roma de nuevo</p>
+        <p>Nos gastamos 82€</p>
+        <img src="https://www.enroma.com/wp-content/uploads/2022/03/Musei-Vaticani-carte-geografiche.webp" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 3</h3>
+        <p>Ahora vamos al Vaticano y pasamos el dia ahí</p>
+        <p>Nos gastamos 140€</p>
+        <img src="https://cdn-imgix.headout.com/microbrands-content-image/image/70c7e9051c3411a0653fa26b23c7bd6c-history%20of%20Vatican%20City.jpeg?auto=format&w=713.0666666666667&h=458.4&q=90&fit=crop&ar=14%3A9" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 4 y 5</h3>
+        <p>Vamos a Gènova y pasamos dos dias ahí</p>
+        <p>Nos gastamos 310€</p>
+        <img src="https://image.novasol.com/pic/1024/ilg/201906061207/ilg019_associated_01.jpg" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 6</h3>
+        <p>Vamos a Monaco y lo visitamos</p>
+        <p>Nos gastamos 200€</p>
+        <img src="https://www.elnacional.cat/uploads/s1/41/89/91/01/formula-1-gran-premio-monaco-curva-loews.jpeg" alt=""
+        height="350"
+        width="500"
+        >
+        <h3>Dia 7</h3>
+        <p>Nos vamos pasando por Marsella y volvemos para Barcelona</p>
+        <p>Nos gastamos 67€ </p>
+        <img src="https://www.civitatis.com/f/francia/marsella/excursion-marsella-para-cruceros-589x392.jpg" alt=""
+        height="350"
+        width="500"
+        >
+        <h4>Aquí dejo el mapa de la ruta</h4>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m58!1m12!1m3!1d2993515.5398899075!2d4.751933917003297!3d42.886455870984655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m43!3e0!4m5!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona!3m2!1d41.3873974!2d2.168568!4m5!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2zUm9tYSwgUHJvdsOtbmNpYSBkZSBSb21hLCBJdMOgbGlh!3m2!1d41.9027835!2d12.4963655!4m5!1s0x132f60660c3e3925%3A0x498c3835506c3c!2sVaticano%2C%20Ciutat%20del%20Vatic%C3%A0!3m2!1d41.9021788!2d12.453600699999999!4m5!1s0x12d34152dcd49aad%3A0x236a84f11881620a!2zR2Vub3ZhLCBHw6hub3ZhLCBJdMOgbGlh!3m2!1d44.4056499!2d8.946256!4m5!1s0x12cdc26f7b3f8531%3A0x74f7784c3ac49cfc!2zTcOybmFjbw!3m2!1d43.7384176!2d7.4246158!4m5!1s0x12c9bf4344da5333%3A0x40819a5fd970220!2sMarsella%2C%20Fran%C3%A7a!3m2!1d43.296482!2d5.3697799999999996!4m5!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona!3m2!1d41.3873974!2d2.168568!5e0!3m2!1sca!2ses!4v1697539802025!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+
+</html>
